@@ -1,0 +1,283 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/*HEADER*/
+#head{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,.9);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+#head .logo{
+    margin-left: 30px;
+    color:white;
+}
+#head .logo a{
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+}
+#head .logo a:hover{
+    color:#F1D1B5;
+}
+#head .nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 30px;
+}
+#head .nav li{
+    list-style: none;
+    margin-left:10px;
+}
+#head .nav li a{
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+}
+#head .nav li a:hover{
+    color:#F1D1B5;
+}
+/*BANNER*/
+#banner{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    background-image:linear-gradient( to right, #568EA6, #305f72);
+}
+.nama{
+    position: absolute;
+    top:30%;
+    right:45%;
+    background-color: transparent;
+    color:#F1D1B5;
+    font-style: italic;
+    font-size: 3.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nama span{
+    background-color: transparent;
+    font-size: 2em;
+    font-style: normal;
+    
+}
+.btn{
+    position: absolute;
+    bottom:30%;
+    left:40%;
+}
+.btn a{
+    text-decoration: none;
+    color:#F1D1B5;
+    border:2px #F1D1B5 solid;
+    border-radius: 10px;
+    padding:7px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.btn a:hover{
+    background-color: #F1D1B5;
+    color:#568EA6;
+
+    
+}
+#banner .gambar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+#banner .gambar img{ 
+   max-height: 85vh;
+   position: absolute;
+}
+/*ABOUT*/
+#about{
+    border:1px solid transparent;
+    background-image: linear-gradient(to right, #568EA6, #305f72);
+    position: relative;
+    height: 80vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.title{
+    margin-top:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#F1D1B5;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#about .aboutpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+#about .aboutpic img{
+    max-width:40%;
+    max-height: 40vh;
+}
+#about .aboutcon{
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about .aboutcon p{
+    width:60%;
+    font-size:1.1em;
+    font-weight: bold;
+    text-align: center;
+    color: #F1D1B5;
+}
+#about .card3{
+    margin:auto;
+    width:90%;
+    max-height:80vh;
+    background-color: #305f72;
+    border-radius: 15px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#edu{
+    background-image: linear-gradient(to right, #568EA6, #305f72);
+    border:transparent solid;
+}
+#edu .col1{
+    width: 80%;
+    margin:auto;
+    height:60vh;
+    display: block;
+    margin-top: 15px;
+    background-color: #305f72;
+    border-radius: 15px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+#edu .col1 .imgbox{
+    height:65%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#edu .col1 img{
+    height:100%;
+}
+#edu .col1 .textbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30%;
+}
+#edu .col1 .textbox p{
+    color:#F1D1B5;
+    font-size:1em;
+    text-align: center;
+}
+#edu .col1 .textbox p span{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+#edu .col2{
+    margin:20px;
+    width:80%;
+    margin:auto;
+}
+#edu .col2 .educard{
+    margin:15px 0px;
+    background-color: #305f72;
+    border-radius: 15px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+#edu .col2 .educard h2{
+    text-align: center;
+    padding:15px;
+    color:#F1D1B5;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px){
+    #head .logo a{
+        font-size: 50px;
+    }
+    #head .nav li a{
+        color:white;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .card1{
+        position: absolute;
+        top:12.5%;
+        left:15%;
+        background-color: #305f72;
+        border-radius: 15px;
+        width:70%;
+        height:75vh;
+        margin:auto;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    }
+    .card2{
+        position: absolute;
+        top:15%;
+        left:17%;
+        border: 2px #F1D1B5 solid;
+        border-radius: 15px;
+        width:66%;
+        height:70vh;
+        margin:auto;    
+    }
+
+#about .content{
+    display: flex;
+    margin:0px 0px;
+    padding:30px;
+    width: 100%;
+   
+}
+#about .aboutpic{
+    width:100%;
+}
+#about .aboutpic img{
+    max-width:100%;
+    max-height: 40vh;
+}
+#about .aboutcon{
+    width: 100%;
+}
+#about .aboutcon p{
+    width:100%;
+}
+#about .card3{
+    width:70%;
+}
+
+#edu .content{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin:auto;
+}
+#edu .col1{
+    width:45%;
+}
+#edu .col2{
+    width:45%;
+    height:60vh;
+}
+#edu .col2 .educard{
+    height:18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
