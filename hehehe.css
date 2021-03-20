@@ -205,7 +205,7 @@
     font-weight: bold;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 600px){
     #head .logo a{
         font-size: 50px;
     }
