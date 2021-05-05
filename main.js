@@ -1,8 +1,3 @@
-//const burger = document.getElementsByClassName('fa-bars');
-
-//burger.addEventListener("click", function(){
-  //  console.log("click");
-//});
 
 var logo = document.getElementsByClassName("fa-bars");
 var navbar = document.getElementsByClassName("navbar");
