@@ -238,19 +238,37 @@ header .head_container{
     width:500%;
     height:inherit; 
 }
+.carousel_slides a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
 .card{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:90%;
+    height:100%;
 }
 .op{
-    background-color: grey;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.op p{
+    color:black;
+}
+.potatoplanet{
+    background-image: url("potato1.jpg");
+    background-size: cover;
+}
+.todoapp{
+    background-image: url("todo2.jpg");
+    background-size: cover;
 }
 .card .spin{
     width:40px;
@@ -337,5 +355,8 @@ header .nav_menu{
 }
 #contact .content{
     grid-template-columns: 1fr 1fr;
+}
+.todoapp{
+    background-image: url("todo1.jpg");
 }
 }
