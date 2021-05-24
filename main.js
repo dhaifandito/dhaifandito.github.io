@@ -55,4 +55,4 @@ function autoNext(){
     slides.style.transform = 'translateX('+ (-size*counter) + 'px)';
     slides.style.transition = 'transform 0.4s ease-in-out';
 }
-setInterval(autoNext, 3000);
+setInterval(autoNext, 5000);
