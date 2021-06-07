@@ -126,6 +126,21 @@ header .head_container{
 .home .home_container h2{
     font-size: 2em;
 }
+
+.home .cv{
+    margin-top: 2em;
+}
+.home .cv a{
+    text-decoration: none;
+    color:white;
+    border:1px white solid;
+    border-radius: 2em;
+    padding: .5em;
+}
+.home .cv a:hover{
+    color:gold;
+    border:1px gold solid;
+}
 .socmed a{
     font-size:2em;
     color:white;
